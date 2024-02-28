@@ -1,0 +1,12 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "brovchat-program"
+edition = "2021"
+
+[dependencies]
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+sha2 = "0.10.8"
+
